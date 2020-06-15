@@ -17,6 +17,7 @@ services:
       - ./volumes/wordpress:/var/www/html
       - ./fonts:/var/www/html/fonts
       - ./custom.css:/var/www/html/custom.css
+      - ./dist:/dist
 
   db:
     image: mysql:5.7

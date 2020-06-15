@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "pitch";
+    src: url("fonts/pitch-test-medium.woff") format('woff');
+}
+
+@font-face {
+    font-family: "pitch";
+    src: url("fonts/pitch-test-bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "pitch";
+    src: url("fonts/pitch-test-bold-italic.woff") format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "pitch";
+    src: url("fonts/pitch-test-medium-italic.woff") format('woff');
+    font-style: italic;
+}
+
+div * {
+    font-family: "pitch", monospace !important;
+}
